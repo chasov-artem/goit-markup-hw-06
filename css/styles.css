@@ -74,9 +74,10 @@ img {
 }
 
 .header-menu-list {
-    display: flex;
+    /* display: flex; */
     gap: 40px;
     align-items: center;
+    display: none;
 }
 
 .header-logo {
@@ -87,14 +88,16 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
+    /* margin-right: 76px; */
     display: flex;
     align-items: center;
 }
 
 .header-logo-studio {
     color: #2e2f42;
-    padding: 24px 0;
+    /* padding: 24px 0; */
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .navigation-link {
@@ -140,7 +143,8 @@ img {
 }
 
 .address-list {
-    display: flex;
+    /* display: flex; */
+    display: none;
     gap: 40px;
     align-items: center;
     padding: 24px 0;
@@ -157,6 +161,10 @@ img {
 
 .address-link:focus {
     color: #404bbf;
+}
+
+.open-menu {
+    border: none;
 }
 
  /* ------------------------------------------------ */
