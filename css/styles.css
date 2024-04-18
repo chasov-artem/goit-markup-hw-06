@@ -74,7 +74,6 @@ img {
 }
 
 .header-menu-list {
-    /* display: flex; */
     gap: 40px;
     align-items: center;
     display: none;
@@ -88,16 +87,13 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    /* margin-right: 76px; */
     display: flex;
     align-items: center;
 }
 
 .header-logo-studio {
     color: #2e2f42;
-    /* padding: 24px 0; */
-    padding-top: 16px;
-    padding-bottom: 16px;
+    
 }
 
 .navigation-link {
@@ -143,11 +139,9 @@ img {
 }
 
 .address-list {
-    /* display: flex; */
     display: none;
-    gap: 40px;
     align-items: center;
-    padding: 24px 0;
+    
 }
 
 .address-link {
@@ -165,6 +159,7 @@ img {
 
 .open-menu {
     border: none;
+    background-color: transparent;
 }
 
  /* ------------------------------------------------ */
@@ -464,8 +459,10 @@ background-color: #404BBF;
 
 .footer {
     background: #2e2f42;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .footer-flex {
@@ -863,6 +860,33 @@ background-color: #404BBF;
         width: 768px;
     }
 
+    .header-menu-list {
+         display: flex;
+    }
+    
+    .header-logo {
+        margin-right: 120px;
+    }
+    
+    
+    .address {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        display: block;
+    }
+    
+    .address-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px 0;
+    }
+    
+    .open-menu {
+        display: none;
+    }
+
     .features-list {
         gap: 72px 24px;
     }
@@ -901,6 +925,8 @@ background-color: #404BBF;
         max-width: 496px;
         margin-bottom: 36px;
     }
+
+   
 }
 
 
@@ -909,6 +935,27 @@ background-color: #404BBF;
         width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .header-logo {
+        margin-right: 76px;
+    }
+        
+    .header-logo-studio {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+        
+    .address {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+        
+    .address-list {
+        gap: 40px;
+        padding: 24px 0;
+        flex-direction: row;
     }
 
     .features {
@@ -981,4 +1028,7 @@ background-color: #404BBF;
     .hero-title {
         margin-bottom: 48px;
     }
+
+
+
 }
