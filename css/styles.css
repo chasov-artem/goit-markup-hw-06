@@ -467,11 +467,14 @@ background-color: #404BBF;
 
 .footer-flex {
     display: flex;
-    align-items: baseline;
+    /* align-items: baseline; */
+    flex-direction: column;
+    gap: 72px;
 }
 
 .footer-logo-wrap {
-    margin-right: 120px;
+    /* margin-right: 120px; */
+    text-align: center;
 }
 
 .footer-logo {
@@ -498,12 +501,14 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     font-style: normal;
-    max-width: 264px;
+    /* max-width: 264px; */
+    text-align: left;
 }
 
 .footer-social-wrap {
     height: 80px;
-    margin-right: auto;
+    /* margin-right: auto; */
+    text-align: center;
 }
 
 .footer-social-title {
@@ -514,12 +519,15 @@ background-color: #404BBF;
     color: #fff;
     margin: 0;
     margin-bottom: 16px;
+    /* text-align: center; */
 }
 
 .icon-list-footer {
     display: flex;
     gap: 16px;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon-link-footer {
@@ -544,6 +552,11 @@ background-color: #404BBF;
 .footer-form {
     display: flex;
     gap: 24px;
+    flex-direction: column;
+}
+
+.footer-sub-wrap {
+    text-align: center;
 }
 
 .footer-text-sub {
@@ -553,6 +566,7 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .footer-lable-email {
